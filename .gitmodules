@@ -1,0 +1,9 @@
+[submodule "home"]
+	path = home
+	url = git@github.com:augusteiner/single-spa-mf-home.git
+[submodule "menu"]
+	path = menu
+	url = git@github.com:augusteiner/single-spa-mf-menu.git
+[submodule "auth"]
+	path = auth
+	url = git@github.com:augusteiner/single-spa-mf-auth.git
