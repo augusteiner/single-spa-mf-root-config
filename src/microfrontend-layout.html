@@ -1,0 +1,17 @@
+<single-spa-router>
+  <div class="d-flex h-100">
+    <header class="d-flex">
+      <application name="@single-spa-mf/menu"></application>
+    </header>
+
+    <main class="w-100">
+      <route default>
+        <application name="@single-spa-mf/home"></application>
+      </route>
+
+      <route path="auth">
+        <application name="@single-spa-mf/auth" style="background-color: red;"></application>
+      </route>
+    </main>
+  </div>
+</single-spa-router>
